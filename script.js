@@ -9,9 +9,9 @@ const textBox = document.getElementById('text-box');
 // Images Color Mode
 
 function imageMode(color) {
-    image1.src = `/SVG/coder_${color}.svg`;
-    image2.src = `/SVG/table_${color}.svg`;
-    image3.src = `/SVG/girl_${color}.svg`;
+    image1.src = `./SVG/coder_${color}.svg`;
+    image2.src = `./SVG/table_${color}.svg`;
+    image3.src = `./SVG/girl_${color}.svg`;
 }
 
 
